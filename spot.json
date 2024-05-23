@@ -1,0 +1,32 @@
+[
+  {
+    ass_id: '1034',
+    name: '西操运动场区1',
+    open_time: '2022-03-14 00:00:17',
+    limited: '0',
+    joined: '0',
+    beacon: [Array],
+    school_id: '70',
+    admin_id: '297',
+    add_time: '2021-09-18 16:03:03',
+    upd_time: '2023-03-20 11:39:54',
+    sign_gap: '0',
+    max_signed: '0',
+    beacon_sn: '1009057628',
+    type: '2',
+    times_exchange: '1',
+    contacts: '邱',
+    is_del: '0',
+    extra: '排球',
+    duration: 1800,
+    leave: 900,
+    sign_range: '[["16:30","21:30"],["",""],["",""],["",""],["",""]]',
+    cycle_days: '[["0"]]',
+    only_eff: '0',
+    update_at: '2023-03-20 11:39:54',
+    desc: '',
+    nonce: '3f43f78191178f3ce32aed6a2e60facd',
+    isValidSignStatus: 3,
+    right_desc: '不在可签到时间段'
+  }
+]

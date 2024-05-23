@@ -1,0 +1,10 @@
+import { decrypt, encrypt, getSign } from "./util.mjs";
+
+const e = `xAaLwtkBkmLy7gCNOsBESyRafA0OouGEbIbWGW9qZxL34PTUPF8A6sO+PDrGYcwdFlcqIezD0uZpZYYyQOk7MAMbqYHCBMkdGo6wp9TYy24iMmTWgr0DqT2AzvGJBL3lznA7bF1e9MwOztUxrRvO8I/+5sXTKKb0ktL8jaXBv31EYQelqPUOVy31ga5iRe5kKZTTjUEjGAiwAMAZNDCdil0UHbjT8jLEYDwHFouaDWirR1epkp5RcixWmDksPkAaO3RqpD09tznWjPEFSZ5oIQ+czBYDlP7xlgwqZYf5TLyxIEwrtT4lEmXU/qrGb7sieC61rQgYoc+pHJ6tHg08fgTQNBHuuUc/VHWSsC8oywOMlz31fzygZv6Gmx1r+F6JGHI08T13nHzrLNzGgnVeLF7gny8WtOiyN7OwA4bcUx/3KB+QLbLqRWHIDo4uGXKYtY+9kgtoQRQzjUlag5uLk72vYTAWtyLTBGR+LAWV2hEHSK0mEQzMOvbIHQSMYl82Ikp6GRhMOWlDQoZvRP0sYfCbeJ4cLltdTejo1eELTY+E5Rf+p5YxkyMov1/VabThGxxApzt6P8t10/zg2/bY1xpNvyIEk71HPutE8b3Cx66GWuuScFTpsmyOIrkThEW5+i5SRgAJbvBhKdL3wQiQpqvT/PUfZUEaQB+h+2gMFPDm+OPsTMuMUnH5sHQBh5KjMXxi2DosfUxcoI8tOq+qodK93/J+GGHA4/Ph7c8TQ11BDaDH9cFf+0qDNwg4Bbp9G6D8gDeJk4TPjfoucz/k7og7PBLv3vH/IjwITokGMeLPBAsXyOtdoTj7tp3EJ2RirA8SOArgTI/uTtr4vQrlJEr1Ufe/ExdULY4t9CpFPICV/v4BszV9+W6y8sKjwkmCFxrItEC0gAP5QI4vSLI1PBfYj8yImyxIpfd1WuvuqFpSN0BxeNPmCNyjSk2vGLnsXEToOLmjXNmyWAcMnzRd18i2eDg89NydufDFB0XxureGGuUdU3w5rSxW2kO90VCDzfeOsCICvV4EYVeV++dMIA==`;
+let light = decrypt(e);
+console.log(light[0]);
+let sign = getSign({
+  term_id: "410",
+});
+
+console.log(sign);
